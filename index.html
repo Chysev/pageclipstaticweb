@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StaticWeb</title>
-    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
-    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="./src/css/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StaticWeb</title>
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="./src/css/index.css">
 </head>
 
 <body>
+  <!-- navigation -->
+  <header id="navigation">
+    <h1>Layda</h1>
+    <button class="nav-controler" arial-controls="primary-navigation" arial-expanded="false"><span
+        class="sr-only">Menu</span></button>
+    <nav data-visible="false" class="primary-navigation">
+      <ul class="secondary-navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="https://github.com/Chysev/pageclipstaticweb">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <script src="./src/js/index.js"></script>
 
-<center> 
-  <div id="content">
-    <form action="https://send.pageclip.co/QQkZgzSxbfKXVMXXC1nHEI9FOf5oQyph" class="pageclip-form" method="post">
-      <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-      <div id="containter">
-        <input type="text" name="name" value="John Layda" />
-        <input type="email" name="email" value="Johnlayda92@gmail.com" />
-        <input type="text" name="letter" value="Nawawala mccock ni Layda">
-      </div>
-    
-      <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-      <button type="submit" class="pageclip-form__submit">
-        <span>Send</span>
-      </button>
-    </form>
-  </div>
-</center>
+  <!-- main -->
 
+  <content>
+    <div id="main-form">
+      <form action="https://send.pageclip.co/QQkZgzSxbfKXVMXXC1nHEI9FOf5oQyph" class="pageclip-form" method="post">
+        <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+        <div id="containter">
+          <h1>Pageclip</h1>
+          <input type="text" name="name" value="John Layda" />
+          <input type="email" name="email" value="Johnlayda92@gmail.com" />
+          <input type="text" name="letter" value="Nawawala mccock ni Layda">
+        </div>
+
+        <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+        <button type="submit" class="pageclip-form__submit">
+          <span>Send</span>
+        </button>
+      </form>
+    </div>
+  </content>
 
 </body>
 
