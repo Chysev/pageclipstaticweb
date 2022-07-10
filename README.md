@@ -1,4 +1,4 @@
 # pageclipstaticweb
 ## Dev: Chysev
 
-### Domain: https://pageclipweb.chysev.me
+### Domain: https://pageclipstaticweb.pages.dev
